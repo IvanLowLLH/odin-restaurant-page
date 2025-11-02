@@ -1,0 +1,24 @@
+:root {
+    --black-background-color: rgb(26, 26, 26);
+    --title-font: "Playfair Display", serif
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: var(--black-background-color);
+}
+
+.logo-text {
+    color: white;
+    font-family: var(--title-font);
+}
