@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%;    
+    width: 100%;
 }
 
 header {
@@ -27,13 +27,13 @@ header {
 #content {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .home-bg-img {
     width: 100%;
     height: 100%;
-    object-fit: stretch;
+    object-fit: cover;
 }
 
 .home-text {
