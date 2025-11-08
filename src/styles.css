@@ -84,7 +84,6 @@ button:hover {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 
     padding: 20px;
@@ -104,6 +103,7 @@ button:hover {
     color: white;
     font-size: 50px;
     text-align: center;
+    text-decoration: var(--gold-color) underline;
 }
 
 .quote-line + h3 {
