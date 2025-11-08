@@ -7,7 +7,7 @@ function menuPage() {
     const contentDiv = document.querySelector("#content");
     contentDiv.classList.add("menu-page");
     const sub_title = document.createElement("h1");
-    sub_title.classList.add("sub-title");
+    sub_title.classList.add("quote-line");
     sub_title.textContent = "Menu";
 
     const menu_grid = document.createElement("div");
