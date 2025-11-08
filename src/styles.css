@@ -180,3 +180,8 @@ button:hover {
     font-size: 1.5rem;
     z-index: 2;
 }
+
+.contact-page > p, address {
+    color: white;
+    font-family: var(--text-font);
+}
