@@ -1,7 +1,7 @@
 import "./styles.css";
 import { homePage } from "./homepage";
 import { menuPage } from "./menu";
-
+import { contactPage } from "./contact";
 
 homePage();
 
@@ -20,4 +20,10 @@ const menuButton = document.getElementById("menu-btn");
 menuButton.addEventListener("click", () => {
     clearContent();
     menuPage();
+})
+
+const contactButton = document.getElementById("contact-btn");
+contactButton.addEventListener("click", () => {
+    clearContent();
+    contactPage();
 })
